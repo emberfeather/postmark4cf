@@ -76,10 +76,8 @@ component extends="base" {
 	}
 	
 	public array function getBounceTags() {
-		local.items = listToArray(structKeyList(arguments.filter));
-		
 		// Send the request
-		http url="#variables.baseUrl#/bounce/tags" method="get" result="local.apiResults" {
+		http url="#variables.baseUrl#/bounces/tags" method="get" result="local.apiResults" {
 			httpparam type="header" name="Accept" value="application/json";
 			httpparam type="header" name="Content-type" value="application/json";
 			httpparam type="header" name="X-Postmark-Server-Token" value="#variables.apiKey#";
