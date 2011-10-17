@@ -1,7 +1,6 @@
 component {
-	public component function init( required string apiKey ) {
-		variables.apiKey = arguments.apiKey;
-		variables.baseUrl = 'https://api.postmarkapp.com';
+	public component function init( required string baseUrl ) {
+		variables.baseUrl = arguments.baseUrl;
 		
 		return this;
 	}

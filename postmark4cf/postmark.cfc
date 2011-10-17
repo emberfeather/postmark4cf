@@ -1,7 +1,8 @@
 component extends="base" {
 	public component function init( required string apiKey, numeric threshold = 500 ) {
-		super.init(arguments.apiKey);
+		super.init('https://api.postmarkapp.com');
 		
+		variables.apiKey = arguments.apiKey;
 		variables.threshold = arguments.threshold;
 		
 		variables.messages = [];
