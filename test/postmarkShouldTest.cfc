@@ -3,6 +3,7 @@ component extends="mxunit.framework.TestCase" {
 		variables.postmark = createObject('component', 'postmark4cf.postmark').init('POSTMARK_API_TEST');
 	}
 	
+	/*
 	public void function activateBounceSuccess() {
 		variables.postmark.activateBounce(1000);
 	}
@@ -26,6 +27,7 @@ component extends="mxunit.framework.TestCase" {
 	public void function getDeliveryStatsSuccess() {
 		variables.postmark.getDeliveryStats();
 	}
+	*/
 	
 	public void function sendSuccess() {
 		variables.postmark.addMessage({
