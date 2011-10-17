@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<project name="postmark4cf" default="prepare" basedir=".">
+	<!-- Include the property files -->
+	<property file="${basedir}/build/settings/user.properties"/>
+	<property file="${basedir}/build/settings/project.properties"/>
+	<property file="${basedir}/build/settings/version.properties"/>
+	<property file="${basedir}/build/settings/test.properties"/>
+	
+	<!-- Include the master build file -->
+	<import file="${basedir}/build/master/master.xml"/>
+</project>

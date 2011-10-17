@@ -1,0 +1,4 @@
+build/logs
+build/settings/user.properties
+dist/
+

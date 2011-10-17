@@ -1,0 +1,3 @@
+[submodule "build/master"]
+	path = build/master
+	url = git://github.com/emberfeather/ef-ant.git

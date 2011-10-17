@@ -1,0 +1,279 @@
+/*
+====================
+=== Colors - old man winter | ver 04
+====================
+=        Lighter
+=======  Darker
+====================
+*/
+
+/*
+====================
+=== Tags
+====================
+*/
+
+body {
+	background: #FFF;
+	color: #333;
+	font: 11pt 'Josefin Sans Std Light', arial, serif;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+	margin-bottom: 1.5em;
+}
+
+a {
+	color: #135487;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2A4353;
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: 1px dotted invert;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+h4 {
+	font-size: 19px;
+}
+
+h5 {
+	font-size: 17px;
+}
+
+h6 {
+	font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height:1.2em;
+	margin: .3em 0;
+}
+
+h2 {
+	border-bottom: 1px solid #016392;
+	margin: .3em 0 0 0;
+}
+
+table {
+	margin: .5em 0;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style: square;
+}
+
+li {
+	margin: 0 2em;
+}
+
+dt {
+	font-size: 1.25em;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+dd {
+	margin: 1em 0;
+	padding: 0 1em;
+	border-left: 4px solid #ccc;
+}
+
+p {
+	padding: 0;
+	margin: 1em 0;
+}
+
+blockquote {
+	font-family: Georgia, 'Times New Roman', serif;
+	padding: .5em 1em;
+	margin: 1em 0;
+	border-left: 4px solid #ccc;
+}
+
+blockquote cite {
+	font-size: .9em;
+}
+
+ul, ol {
+	padding-top: 0;
+}
+
+/*
+====================
+=== IDs
+====================
+*/
+
+#header {
+	color: #fff;
+}
+
+#breadcrumb {
+	font-size: .75em;
+}
+
+#bugjar,
+#sparkcontainer {
+	display: none;
+}
+
+/*
+====================
+=== Classes
+====================
+*/
+
+/*
+	General Classes
+*/
+
+.clear {
+	clear: both;
+}
+
+.float-right {
+	float: right;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+/* 
+	960 grid system
+*/
+.container_12,
+.container_16 {
+	padding: 0;
+}
+
+.content {
+	background: #fff;
+	-moz-border-radius: .75em;
+	-webkit-border-radius: .75em;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+
+.menu.vertical {
+	margin: 0;
+	padding: 0;
+}
+
+.menu.vertical li {
+	list-style: none;
+	margin: 0 1em;
+}
+
+/**
+ * MXUnit styles
+ */
+
+.mxunitResults .summary .nav a {
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+}
+
+.mxunitResults table.results {
+	width: 100%
+}
+
+.mxunitResults .nav.horizontal {
+	padding: 0;
+}
+
+.mxunitResults .nav.horizontal li {
+	float: left;
+	list-style: none;
+	margin: 0 1em 1em 0;
+}
+
+.mxunitResults .nav.horizontal a {
+	font-weight: bold;
+	display: block;
+}
+
+.mxunitResults .failed,
+.mxunitResults .failed a {
+	color:#101080;
+}
+
+.mxunitResults .error,
+.mxunitResults .error a {
+	color: #c70000;
+}
+
+.mxunitResults .success,
+.mxunitResults .passed,
+.mxunitResults .success a, 
+.mxunitResults .passed a {
+	color: #0d7008;
+}
+
+.mxunitResults .nav.horizontal a.inactive {
+	color: #666;
+}
+
+.mxunitResults table.results th {
+	text-align: left;
+}
+
+.mxunitResults table.results th.result,
+.mxunitResults table.results th.speed {
+	width: 6%;
+}
+
+.mxunitResults table.results th.error,
+.mxunitResults table.results th.output {
+	width: 22%;
+}
+
+.mxunitResults table.results td.result,
+.mxunitResults table.results td.speed {
+	font-weight: bold;
+}
